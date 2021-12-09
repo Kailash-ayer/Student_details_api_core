@@ -7,5 +7,6 @@ namespace Student_details_api_core.Models
 {
     public class Employee
     {
+        //Employee
     }
 }
