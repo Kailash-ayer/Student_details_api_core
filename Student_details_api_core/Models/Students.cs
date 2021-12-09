@@ -9,7 +9,7 @@ namespace Student_details_api_core.Models
     public class Students
     {
         [Key]
-       
+
         public int Id { get; set; }
         [Required]
         public string Fname { get; set; }
