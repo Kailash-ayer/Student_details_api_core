@@ -13,6 +13,7 @@ namespace Student_details_api_core.Models
         {
             Database.EnsureCreated();
         }
+
         public DbSet<Students> Student { get; set; } //represnt the collection of student
 
     }
