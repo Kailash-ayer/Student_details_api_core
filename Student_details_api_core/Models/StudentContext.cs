@@ -9,6 +9,7 @@ namespace Student_details_api_core.Models
     public class StudentContext : DbContext //inherit by dbcontext class
     {
         //Constructor
+
         public StudentContext(DbContextOptions<StudentContext> options) : base(options)
         {
             Database.EnsureCreated();
